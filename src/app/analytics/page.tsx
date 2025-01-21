@@ -2,11 +2,10 @@
 
 import { motion } from 'framer-motion'
 import { 
-  AreaChart, Area, BarChart, Bar, LineChart, Line,
-  XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
+  AreaChart, Area,  LineChart, Line,
+  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer 
 } from 'recharts'
 import { 
-  ArrowUpIcon, ArrowDownIcon, SparklesIcon, 
   ChartBarIcon, CursorArrowRaysIcon, 
   UserGroupIcon, GlobeAltIcon 
 } from '@heroicons/react/24/solid'
@@ -170,7 +169,7 @@ export default function Analytics() {
         >
           <h2 className="text-xl font-bold text-gray-900 mb-6">Geographic Distribution</h2>
           <div className="space-y-4">
-            {geographicData.map((item, index) => (
+            {geographicData.map((item) => (
               <div key={item.region} className="flex items-center justify-between">
                 <div>
                   <h3 className="text-sm font-medium text-gray-900">{item.region}</h3>

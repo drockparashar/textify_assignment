@@ -6,7 +6,7 @@ import {
   BriefcaseIcon, LinkIcon, StarIcon,
   ChartBarIcon, UsersIcon, RocketLaunchIcon
 } from '@heroicons/react/24/solid'
-import { AreaChart, Area, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
+import { AreaChart, Area, ResponsiveContainer } from 'recharts'
 
 const activityData = [
   { name: 'Mon', value: 40 },

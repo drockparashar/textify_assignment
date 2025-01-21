@@ -1,6 +1,6 @@
 'use client'
 
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer} from 'recharts'
 import { ArrowUpIcon, ArrowDownIcon, SparklesIcon, BoltIcon, FireIcon, StarIcon } from '@heroicons/react/24/solid'
 import { motion } from 'framer-motion'
 

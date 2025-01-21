@@ -3,8 +3,7 @@
 import { motion } from 'framer-motion'
 import { 
   Cog6ToothIcon, BellIcon, ShieldCheckIcon,
-  SwatchIcon, UserCircleIcon, GlobeAltIcon,
-  KeyIcon, ExclamationTriangleIcon
+  SwatchIcon, UserCircleIcon, ExclamationTriangleIcon
 } from '@heroicons/react/24/solid'
 
 const settingsSections = [
@@ -83,7 +82,7 @@ export default function Settings() {
                 <h2 className="text-xl font-bold text-gray-900">{section.title}</h2>
               </div>
               <div className="space-y-4">
-                {section.settings.map((setting, index) => (
+                {section.settings.map((setting) => (
                   <div key={setting.name} className="flex items-center justify-between p-4 hover:bg-gray-50 rounded-xl transition-colors">
                     <div>
                       <h3 className="text-gray-900 font-medium">{setting.name}</h3>
